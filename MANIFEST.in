@@ -1,0 +1,7 @@
+include AUTHORS CHANGES README INSTALL LICENCE
+recursive-include django_3ht *
+recursive-include django_3ht/contrib *
+recursive-include django_3ht/contrib/admin/ *
+global-include *.html *.css *.js
+include docs/Makefile
+recursive-include docs/source *

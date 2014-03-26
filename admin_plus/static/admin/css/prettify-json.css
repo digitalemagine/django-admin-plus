@@ -1,0 +1,37 @@
+.json-prettified > ul.code {
+    padding: 0;
+    margin: 0;
+}
+
+.json-prettified ul.code {
+/*    max-width: 400px;*/
+}
+
+.json-prettified .url {
+
+}
+
+.json-prettified ul.code .property {
+    color: #aaa;
+}
+
+.json-prettified ul.code ul.code .property {
+    color: #666;
+}
+
+.json-prettified .value {
+    color: inherit;
+}
+
+.json-prettified ul.code > li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 16px;
+}
+
+.json-prettified > ul.code > li {
+    /* first one, no padding! */
+    padding: 0;
+}
+
